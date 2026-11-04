@@ -6,25 +6,31 @@
       "id": "neon-breaker",
       "name": "Neon Breaker",
       "type": "game",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "troyvnit",
       "description": "Neon arcade brick-breaker with power-ups, combos and chiptune music.",
       "dest": "Ports/NeonBreaker",
-      "size": 81784,
-      "sha256": "7cdbbe2ea532bdb52451ab451a6802e24b1174217fda3b731f8879816c702480",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.0/neon-breaker-1.0.0.zip"
+      "size": 199140,
+      "sha256": "08b4510294839e6136e892de311828621cc51790077a23a13d39b0ef1861991a",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.1/neon-breaker-1.0.1.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-breaker-1.0.1.zip"
+      ]
     },
     {
       "id": "retroy",
       "name": "Retroy",
       "type": "app",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": "troyvnit",
       "description": "Retroy game store: install and update games and ports from the online catalog.",
       "dest": "Apps/Retroy",
-      "size": 853496,
-      "sha256": "5e422b4839a67d72067ab2a4d159feb15eeafe9c6d7b4acae05fc846d4d1fda2",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.1/retroy-0.1.1.zip"
+      "size": 941170,
+      "sha256": "1184b813d1c52b2a30aec3fbf30e889b5dc4551b7d8e6c914e9f87717271f558",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.2/retroy-0.1.2.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.1.2.zip"
+      ]
     }
   ]
 }

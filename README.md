@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/icon-retroy.png" alt="Retroy icon" width="140"></p>
+
 # Retroy
 
 **A game store for the TrimUI Brick Pro.** Browse a catalog on your handheld, press a button, and new games land on your SD card. No computer needed after the first setup.
@@ -19,6 +21,8 @@
 ## Games
 
 ### Neon Breaker
+<img src="docs/icon-neon-breaker.png" alt="Neon Breaker icon" width="96" align="right">
+
 A neon arcade brick-breaker made for the Brick Pro: power-ups, a combo multiplier, fireball and laser, 8 level layouts that repeat harder, a self-playing demo on the title screen, chiptune music, and a saved high score.
 
 <p align="center">
@@ -40,7 +44,7 @@ Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, 
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
 
-1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.1.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.1/retroy-0.1.1.zip).
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.2.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.2/retroy-0.1.2.zip).
 2. **Turn the Brick Pro off** and put its SD card in your computer.
 3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
    ```
@@ -82,16 +86,18 @@ The top right of the Retroy screen should say **ONLINE** and list the available 
 | **B** | Cancel a download |
 | **SELECT** | Exit Retroy |
 
-## Updating
+## Updating (OTA)
 
-- Press **Y** to refresh. Items with an **UPDATE** badge have a newer version; press **A** on them.
-- Retroy can update itself the same way: when its own entry shows **UPDATE**, press **A**.
+- Retroy checks for updates every time it opens. If a newer **Retroy** is available it offers to update itself: press **A**, wait for the download, and it restarts into the new version on its own.
+- Items with an **UPDATE** badge have a newer version. Press **A** on one, or press **START** to update everything at once (Retroy itself goes last, then restarts).
+- Press **Y** at any time to check again.
 
 ## Troubleshooting
 
 | What you see | What to do |
 |---|---|
 | **OFFLINE** / *NO CATALOG* | The handheld has no connection. Connect to Wi-Fi, then press **Y**. |
+| *TLS / CERTIFICATE ERROR* or `curl: (35) Send failure: Broken pipe` | Either the date/time is wrong, or your network is cutting the connection to GitHub. Retroy automatically retries through a mirror (jsDelivr) and remembers what works. If both fail, try another Wi-Fi network or a phone hotspot. |
 | *certificate ... not yet valid* (or similar) | The handheld's date or time is wrong. Set it correctly in system settings. |
 | **DOWNLOAD FAILED** | Check Wi-Fi and try again. The message under it is the downloader's own error. |
 | **NO DOWNLOADER** | `Apps/Retroy/bin/curl` is missing. Re-extract the Retroy zip onto the card. |
@@ -99,7 +105,7 @@ The top right of the Retroy screen should say **ONLINE** and list the available 
 | **NOT ENOUGH SPACE** | Free some room on the SD card. |
 | Installed game is not in the menu | Return to the main menu or restart the handheld. Games install into `Ports/`. |
 
-More detail for developers: `Apps/Retroy/data/download.log` holds the last download error.
+To see exactly what happened, put the SD card in a computer and open `Apps/Retroy/data/retroy.log` (each attempt: address reached, result, error). Attach it when you [report a problem](../../issues).
 
 ## Settings
 
