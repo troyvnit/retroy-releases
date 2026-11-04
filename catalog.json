@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "name": "Retroy",
+  "entries": [
+    {
+      "id": "neon-breaker",
+      "name": "Neon Breaker",
+      "type": "game",
+      "version": "1.0.0",
+      "author": "troyvnit",
+      "description": "Neon arcade brick-breaker with power-ups, combos and chiptune music.",
+      "dest": "Ports/NeonBreaker",
+      "size": 81784,
+      "sha256": "7cdbbe2ea532bdb52451ab451a6802e24b1174217fda3b731f8879816c702480",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.0/neon-breaker-1.0.0.zip"
+    }
+  ]
+}
