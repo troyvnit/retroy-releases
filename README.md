@@ -44,7 +44,7 @@ Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, 
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
 
-1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.2.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.2/retroy-0.1.2.zip).
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.3.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.3/retroy-0.1.3.zip).
 2. **Turn the Brick Pro off** and put its SD card in your computer.
 3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
    ```
@@ -104,6 +104,8 @@ The top right of the Retroy screen should say **ONLINE** and list the available 
 | **CHECKSUM MISMATCH** | The file was damaged or altered and was rejected. Try again; if it keeps happening, please report it. |
 | **NOT ENOUGH SPACE** | Free some room on the SD card. |
 | Installed game is not in the menu | Return to the main menu or restart the handheld. Games install into `Ports/`. |
+
+When Retroy cannot reach its servers it shows a network check under the message, e.g. `raw.githubusercontent.com: DNS FAIL` (name lookup blocked), `TCP FAIL` (connection blocked) or `TCP OK` (the network is fine; the problem is later). Tell us which one you see.
 
 To see exactly what happened, put the SD card in a computer and open `Apps/Retroy/data/retroy.log` (each attempt: address reached, result, error). Attach it when you [report a problem](../../issues).
 
