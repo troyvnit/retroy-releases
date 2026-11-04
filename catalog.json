@@ -23,18 +23,18 @@
       "id": "retroy",
       "name": "Retroy",
       "type": "app",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": "troyvnit",
       "description": "Retroy game store: install and update games and ports from the online catalog.",
       "dest": "Apps/Retroy",
-      "size": 1579084,
-      "sha256": "aa94b499dea8f6916e6add1e09612d1a3793961573469b68adfbb844bef0777d",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.0/retroy-0.2.0.zip",
+      "size": 1579852,
+      "sha256": "6b88c06bf3d08eb834564139a1d4e83c9d7b7203faf4448c8388c6060320718e",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.1/retroy-0.2.1.zip",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.2.0.zip"
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.2.1.zip"
       ],
-      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/retroy-0.2.0.png",
-      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/retroy-0.2.0.png"
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/retroy-0.2.1.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/retroy-0.2.1.png"
     }
   ]
 }

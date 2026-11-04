@@ -45,7 +45,7 @@ Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, 
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
 
-1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.2.0.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.0/retroy-0.2.0.zip).
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.2.1.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.1/retroy-0.2.1.zip).
 2. **Turn the Brick Pro off** and put its SD card in your computer.
 3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
    ```
