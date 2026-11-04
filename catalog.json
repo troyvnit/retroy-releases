@@ -13,6 +13,18 @@
       "size": 81784,
       "sha256": "7cdbbe2ea532bdb52451ab451a6802e24b1174217fda3b731f8879816c702480",
       "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.0/neon-breaker-1.0.0.zip"
+    },
+    {
+      "id": "retroy",
+      "name": "Retroy",
+      "type": "app",
+      "version": "0.1.0",
+      "author": "troyvnit",
+      "description": "Retroy game store: install and update games and ports from the online catalog.",
+      "dest": "Apps/Retroy",
+      "size": 37374,
+      "sha256": "034409649fe6a88266c665261090f87d5fe3df68e63f61068fde01106e992127",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.0/retroy-0.1.0.zip"
     }
   ]
 }
