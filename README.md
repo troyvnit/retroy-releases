@@ -1,9 +1,123 @@
-# Retroy releases
+# Retroy
 
-Public catalog and installable game packages for Retroy on the TrimUI Brick Pro.
-Source lives in a private repo; this repo only serves what the launcher downloads.
+**A game store for the TrimUI Brick Pro.** Browse a catalog on your handheld, press a button, and new games land on your SD card. No computer needed after the first setup.
 
-- `catalog.json` - list of installable games/ports (sha256-verified by the launcher)
-- Releases - one tag per package, e.g. `neon-breaker-1.0.0`, with the zip as the asset
+<p align="center">
+  <img src="docs/launcher-list.png" alt="Retroy launcher showing the game list" width="480">
+</p>
 
-Catalog URL: `https://raw.githubusercontent.com/troyvnit/retroy-releases/main/catalog.json`
+## What you get
+
+- **One-button installs.** Pick a game, press **A**. Retroy downloads it, checks it is intact, and installs it.
+- **Updates and removal.** Items show **NEW**, **INSTALLED** or **UPDATE**. Remove anything with **X**.
+- **Games and Ports.** Original games built for the Brick Pro today; more games and community Ports are planned.
+- **Safe by design.** Every download is verified with a SHA-256 checksum and rejected if it does not match. Packages can only install into `Apps/` or `Ports/`, and the installer refuses any file that tries to write anywhere else.
+- **Works offline for browsing.** The last catalog is cached, so you can still look around without Wi-Fi.
+
+> **Status: early release (0.1.x).** Built for the **TrimUI Brick Pro** with its stock firmware. It was developed and tested on a computer and has had limited testing on real hardware, so please [report problems](../../issues) (see [Feedback](#feedback)).
+
+## Games
+
+### Neon Breaker
+A neon arcade brick-breaker made for the Brick Pro: power-ups, a combo multiplier, fireball and laser, 8 level layouts that repeat harder, a self-playing demo on the title screen, chiptune music, and a saved high score.
+
+<p align="center">
+  <img src="docs/neon-breaker-title.png" alt="Neon Breaker title screen" width="31%">
+  <img src="docs/neon-breaker-powerups.png" alt="Neon Breaker power-ups and laser" width="31%">
+  <img src="docs/neon-breaker-invader.png" alt="Neon Breaker invader level" width="31%">
+</p>
+
+| Button | Action |
+|---|---|
+| D-pad / left stick | Move the paddle |
+| A / B / X / Y | Launch the ball, fire the laser |
+| START | Pause |
+| SELECT | Music on / off |
+
+Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, **F** fireball, **+** extra life.
+
+## Install Retroy (one-time setup)
+
+You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
+
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.1.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.1/retroy-0.1.1.zip).
+2. **Turn the Brick Pro off** and put its SD card in your computer.
+3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
+   ```
+   SD card
+   └── Apps
+       └── Retroy
+           ├── bin/            (bundled downloader and certificates)
+           ├── retroy_libretro.so
+           ├── launch.sh
+           └── ...
+   ```
+4. **Eject the card safely**, put it back in the handheld and power on.
+5. **Connect the Brick Pro to Wi-Fi** in its system settings and make sure the **date and time are correct** (secure downloads fail if the clock is wrong).
+6. Open **Apps → Retroy**.
+
+The top right of the Retroy screen should say **ONLINE** and list the available games.
+
+## Install a game
+
+1. In Retroy, move to the game with **Up / Down** (switch tabs with **L / R**).
+2. Press **A**. Wait for the download and install to finish.
+3. When you see **INSTALLED**, press **A** to close the message, then leave Retroy with **SELECT**.
+4. Go back to the main menu. The game appears under **Ports** (apps appear under **Apps**). If it is not listed yet, restart the handheld once.
+
+<p align="center">
+  <img src="docs/launcher-installed.png" alt="Install finished message" width="46%">
+  <img src="docs/launcher-remove.png" alt="Remove confirmation" width="46%">
+</p>
+
+## Controls in Retroy
+
+| Button | Action |
+|---|---|
+| Up / Down | Move through the list |
+| L / R (or Left / Right) | Switch tab: All, Games, Ports, Installed |
+| **A** | Install or update the selected item |
+| **X** | Remove the selected item (asks to confirm) |
+| **Y** | Refresh the catalog |
+| **B** | Cancel a download |
+| **SELECT** | Exit Retroy |
+
+## Updating
+
+- Press **Y** to refresh. Items with an **UPDATE** badge have a newer version; press **A** on them.
+- Retroy can update itself the same way: when its own entry shows **UPDATE**, press **A**.
+
+## Troubleshooting
+
+| What you see | What to do |
+|---|---|
+| **OFFLINE** / *NO CATALOG* | The handheld has no connection. Connect to Wi-Fi, then press **Y**. |
+| *certificate ... not yet valid* (or similar) | The handheld's date or time is wrong. Set it correctly in system settings. |
+| **DOWNLOAD FAILED** | Check Wi-Fi and try again. The message under it is the downloader's own error. |
+| **NO DOWNLOADER** | `Apps/Retroy/bin/curl` is missing. Re-extract the Retroy zip onto the card. |
+| **CHECKSUM MISMATCH** | The file was damaged or altered and was rejected. Try again; if it keeps happening, please report it. |
+| **NOT ENOUGH SPACE** | Free some room on the SD card. |
+| Installed game is not in the menu | Return to the main menu or restart the handheld. Games install into `Ports/`. |
+
+More detail for developers: `Apps/Retroy/data/download.log` holds the last download error.
+
+## Settings
+
+Advanced users can edit `Apps/Retroy/retroy.cfg`:
+
+```ini
+catalog_url=https://raw.githubusercontent.com/troyvnit/retroy-releases/main/catalog.json
+root=/mnt/SDCARD
+```
+
+## Uninstall
+
+Remove games from inside Retroy with **X**. To remove Retroy itself, delete the `Apps/Retroy` folder from the SD card.
+
+## Feedback
+
+Found a bug, or want a game or Port added? [Open an issue](../../issues). Please include what the screen said and the device firmware version.
+
+---
+
+*This repository only hosts the public catalog (`catalog.json`) and the downloadable packages (Releases). Retroy is an independent project and is not affiliated with TrimUI.*
