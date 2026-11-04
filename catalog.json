@@ -6,31 +6,35 @@
       "id": "neon-breaker",
       "name": "Neon Breaker",
       "type": "game",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": "troyvnit",
       "description": "Neon arcade brick-breaker with power-ups, combos and chiptune music.",
       "dest": "Ports/NeonBreaker",
-      "size": 199140,
-      "sha256": "08b4510294839e6136e892de311828621cc51790077a23a13d39b0ef1861991a",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.1/neon-breaker-1.0.1.zip",
+      "size": 164564,
+      "sha256": "80f8a474d16d40540a0c7048a2adad33284181c0877d8edc45b7c5ac9c955ebd",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-breaker-1.0.2/neon-breaker-1.0.2.zip",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-breaker-1.0.1.zip"
-      ]
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-breaker-1.0.2.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-breaker-1.0.2.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-breaker-1.0.2.png"
     },
     {
       "id": "retroy",
       "name": "Retroy",
       "type": "app",
-      "version": "0.1.4",
+      "version": "0.2.0",
       "author": "troyvnit",
       "description": "Retroy game store: install and update games and ports from the online catalog.",
       "dest": "Apps/Retroy",
-      "size": 1602716,
-      "sha256": "186756d9bc46b2e1dd6895ddf520f38aea7405dd7cf1bcde16457a754b9093ae",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.4/retroy-0.1.4.zip",
+      "size": 1579084,
+      "sha256": "aa94b499dea8f6916e6add1e09612d1a3793961573469b68adfbb844bef0777d",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.0/retroy-0.2.0.zip",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.1.4.zip"
-      ]
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.2.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/retroy-0.2.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/retroy-0.2.0.png"
     }
   ]
 }
