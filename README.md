@@ -29,7 +29,7 @@ A neon arcade brick-breaker made for the Brick Pro: power-ups, a combo multiplie
 <p align="center">
   <img src="docs/neon-breaker-title.png" alt="Neon Breaker title screen" width="31%">
   <img src="docs/neon-breaker-powerups.png" alt="Neon Breaker power-ups and laser" width="31%">
-  <img src="docs/neon-breaker-invader.png" alt="Neon Breaker invader level" width="31%">
+  <img src="docs/neon-breaker-invader.png" alt="Neon Breaker game over" width="31%">
 </p>
 
 | Button | Action |
@@ -64,7 +64,7 @@ Medals: **10** bronze, **20** silver, **30** gold, **40** platinum. Your best sc
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
 
-1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.2.1.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.1/retroy-0.2.1.zip).
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.3.0.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.3.0/retroy-0.3.0.zip).
 2. **Turn the Brick Pro off** and put its SD card in your computer.
 3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
    ```
