@@ -44,7 +44,7 @@ Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, 
 ### Neon Flap
 <img src="docs/icon-neon-flap.png" alt="Neon Flap icon" width="96" align="right">
 
-One button, one neon bird, endless pipes. Tap to flap, thread the gaps, and chase the medals. The world shifts colour every 10 points, the gaps tighten as you improve, and the title screen plays itself so you can watch a run before you start.
+One button, one neon bird, endless pipes. Tap to flap, thread the gaps, and chase the medals. Smooth, high-resolution graphics with soft glows and a clean modern interface. The world shifts colour every 10 points, the gaps tighten as you improve, and the title screen plays itself so you can watch a run before you start.
 
 <p align="center">
   <img src="docs/neon-flap-title.png" alt="Neon Flap title screen" width="31%">

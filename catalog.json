@@ -40,18 +40,18 @@
       "id": "neon-flap",
       "name": "Neon Flap",
       "type": "game",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "troyvnit",
       "description": "One-button tap-to-flap arcade: thread a neon bird through the pipes. Medals, shifting themes, chiptune music.",
       "dest": "Ports/NeonFlap",
-      "size": 334567,
-      "sha256": "14348aaa60777c49daa28bf207767003ca1758303a0831b166944bd2b7d8c5b2",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-flap-1.0.0/neon-flap-1.0.0.zip",
+      "size": 502076,
+      "sha256": "b963140a864a9d648e7f82913e55ecd813e67b7bb535e230a517e1d683b0671c",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-flap-1.1.0/neon-flap-1.1.0.zip",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-flap-1.0.0.zip"
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-flap-1.1.0.zip"
       ],
-      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-flap-1.0.0.png",
-      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-flap-1.0.0.png"
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-flap-1.1.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-flap-1.1.0.png"
     }
   ]
 }
