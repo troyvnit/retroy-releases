@@ -5,12 +5,13 @@
 **A game store for the TrimUI Brick Pro.** Browse a catalog on your handheld, press a button, and new games land on your SD card. No computer needed after the first setup.
 
 <p align="center">
-  <img src="docs/launcher-list.png" alt="Retroy launcher showing the game list" width="480">
+  <img src="docs/store-home.png" alt="Retroy store: icon carousel with a Get button" width="520">
 </p>
 
 ## What you get
 
 - **One-button installs.** Pick a game, press **A**. Retroy downloads it, checks it is intact, and installs it.
+- **Play straight from the store.** When an install finishes, press **A** again to launch the game right away, or open it later with the green **PLAY** button.
 - **Updates and removal.** Items show **NEW**, **INSTALLED** or **UPDATE**. Remove anything with **X**.
 - **Games and Ports.** Original games built for the Brick Pro today; more games and community Ports are planned.
 - **Safe by design.** Every download is verified with a SHA-256 checksum and rejected if it does not match. Packages can only install into `Apps/` or `Ports/`, and the installer refuses any file that tries to write anywhere else.
@@ -44,7 +45,7 @@ Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, 
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
 
-1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.1.4.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.4/retroy-0.1.4.zip).
+1. **Download the latest `retroy-x.y.z.zip`** from the [Releases page](../../releases) (look for the release named *Retroy*). Current version: [retroy-0.2.0.zip](https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.2.0/retroy-0.2.0.zip).
 2. **Turn the Brick Pro off** and put its SD card in your computer.
 3. **Unzip onto the root of the SD card** (the folder that already contains `Apps`, `Roms`, `Emus`, `RetroArch`, ...). Accept merging folders. You should end up with:
    ```
@@ -64,26 +65,27 @@ The top right of the Retroy screen should say **ONLINE** and list the available 
 
 ## Install a game
 
-1. In Retroy, move to the game with **Up / Down** (switch tabs with **L / R**).
-2. Press **A**. Wait for the download and install to finish.
-3. When you see **INSTALLED**, press **A** to close the message, then leave Retroy with **SELECT**.
-4. Go back to the main menu. The game appears under **Ports** (apps appear under **Apps**). If it is not listed yet, restart the handheld once.
+1. In Retroy, browse the carousel with the **D-pad** (switch tabs with **L / R**). Each card shows the game's icon; the bar at the bottom shows its description and a button: **GET** (not installed), **UPDATE**, or **PLAY**.
+2. Press **A** on a game you want. A progress bar shows the download and install.
+3. When it says **INSTALLED**, press **A** to **play it right now**, or **B** to stay in the store.
+4. Installed games also appear in the handheld's main menu under **Ports** (apps under **Apps**), and from Retroy you can start them any time: open the game and press **A** on the green **PLAY** button. When you quit the game you return to the main menu.
 
 <p align="center">
-  <img src="docs/launcher-installed.png" alt="Install finished message" width="46%">
-  <img src="docs/launcher-remove.png" alt="Remove confirmation" width="46%">
+  <img src="docs/store-installed.png" alt="Install finished: Play now" width="46%">
+  <img src="docs/store-play.png" alt="Installed game with a green Play button" width="46%">
 </p>
 
 ## Controls in Retroy
 
 | Button | Action |
 |---|---|
-| Up / Down | Move through the list |
-| L / R (or Left / Right) | Switch tab: All, Games, Ports, Installed |
-| **A** | Install or update the selected item |
+| D-pad | Browse the carousel |
+| L / R | Switch tab: All, Games, Ports, Installed |
+| **A** | **GET** / **UPDATE** the selected item, or **PLAY** it when it is installed |
 | **X** | Remove the selected item (asks to confirm) |
 | **Y** | Refresh the catalog |
-| **B** | Cancel a download |
+| **START** | Update everything that has an update |
+| **B** | Cancel a download / close a message |
 | **SELECT** | Exit Retroy |
 
 ## Updating (OTA)
