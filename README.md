@@ -41,6 +41,25 @@ A neon arcade brick-breaker made for the Brick Pro: power-ups, a combo multiplie
 
 Power-ups: **W** wide paddle, **M** multi-ball, **S** slow motion, **L** laser, **F** fireball, **+** extra life.
 
+### Neon Flap
+<img src="docs/icon-neon-flap.png" alt="Neon Flap icon" width="96" align="right">
+
+One button, one neon bird, endless pipes. Tap to flap, thread the gaps, and chase the medals. The world shifts colour every 10 points, the gaps tighten as you improve, and the title screen plays itself so you can watch a run before you start.
+
+<p align="center">
+  <img src="docs/neon-flap-title.png" alt="Neon Flap title screen" width="31%">
+  <img src="docs/neon-flap-play.png" alt="Neon Flap gameplay" width="31%">
+  <img src="docs/neon-flap-over.png" alt="Neon Flap game over with a gold medal" width="31%">
+</p>
+
+| Button | Action |
+|---|---|
+| A / B / X / Y / Up | Flap |
+| START | Pause |
+| SELECT | Music on / off |
+
+Medals: **10** bronze, **20** silver, **30** gold, **40** platinum. Your best score is saved.
+
 ## Install Retroy (one-time setup)
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
