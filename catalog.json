@@ -21,15 +21,15 @@
       "id": "retroy",
       "name": "Retroy",
       "type": "app",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": "troyvnit",
       "description": "Retroy game store: install and update games and ports from the online catalog.",
       "dest": "Apps/Retroy",
-      "size": 942777,
-      "sha256": "13883be1c10ef98ccb392449404a510a49214b6551ffe12e72d4057b4fc15de9",
-      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.3/retroy-0.1.3.zip",
+      "size": 1602716,
+      "sha256": "186756d9bc46b2e1dd6895ddf520f38aea7405dd7cf1bcde16457a754b9093ae",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/retroy-0.1.4/retroy-0.1.4.zip",
       "mirrors": [
-        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.1.3.zip"
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/retroy-0.1.4.zip"
       ]
     }
   ]
