@@ -60,6 +60,29 @@ One button, one neon bird, endless pipes. Tap to flap, thread the gaps, and chas
 
 Medals: **10** bronze, **20** silver, **30** gold, **40** platinum. Your best score is saved.
 
+### Prism
+<img src="docs/icon-prism.png" alt="Prism icon" width="96" align="right">
+
+Bend the light, light them all. Rotate mirrors and splitters so the coloured beams reach every target; where two beams cross, a two-colour target needs both. Levels never run out and each one is checked by a solver, so every puzzle can be solved, and it tells you the par. Match par for three stars. New pieces arrive gradually, and the title screen solves puzzles by itself while you watch.
+
+<p align="center">
+  <img src="docs/prism-title.png" alt="Prism title screen with level picker" width="31%">
+  <img src="docs/prism-play.png" alt="Prism gameplay: coloured beams bent by mirrors" width="31%">
+  <img src="docs/prism-solved.png" alt="Prism level solved with three stars" width="31%">
+</p>
+
+| Button | Action |
+|---|---|
+| D-pad | Move the cursor |
+| A | Rotate the piece |
+| B | Undo |
+| Y | Restart the level |
+| L / R | Jump to the previous / next piece |
+| START | Pause |
+| SELECT | Music on / off |
+
+Your unlocked level and the stars for every level are saved. Pick any unlocked level on the title screen with L / R.
+
 ## Install Retroy (one-time setup)
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.

@@ -52,6 +52,23 @@
       ],
       "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-flap-1.1.1.png",
       "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-flap-1.1.1.png"
+    },
+    {
+      "id": "prism",
+      "name": "Prism",
+      "type": "game",
+      "version": "1.0.0",
+      "author": "troyvnit",
+      "description": "Light-routing puzzles: rotate mirrors and splitters so coloured beams light every target. Endless levels, each one solver-checked, with par and stars.",
+      "dest": "Ports/Prism",
+      "size": 546272,
+      "sha256": "47a472a7a434876b41cd1a0bbd683de17390d50f38a79d5343ab30da3f76147d",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/prism-1.0.0/prism-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/prism-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/prism-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/prism-1.0.0.png"
     }
   ]
 }
