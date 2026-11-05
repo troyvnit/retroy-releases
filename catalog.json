@@ -86,6 +86,23 @@
       ],
       "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/word-smash-1.0.0.png",
       "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/word-smash-1.0.0.png"
+    },
+    {
+      "id": "neon-blocks",
+      "name": "Neon Blocks",
+      "type": "game",
+      "version": "1.0.0",
+      "author": "troyvnit",
+      "description": "Block puzzle for everyone: fit pieces on an 8x8 board, clear full rows and columns, chain combos and earn rotate tokens. Classic and a Daily challenge with the same pieces for everyone.",
+      "dest": "Ports/NeonBlocks",
+      "size": 490713,
+      "sha256": "3cbcf8f862d37be5f224b1478c4e71baedc201deed4eeb149a4b3640062cdc48",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/neon-blocks-1.0.0/neon-blocks-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/neon-blocks-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-blocks-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-blocks-1.0.0.png"
     }
   ]
 }

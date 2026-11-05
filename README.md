@@ -106,6 +106,28 @@ English vocabulary for kids, made for IOE (Internet Olympiad of English) practic
 
 Pictures: [Twemoji](https://github.com/jdecked/twemoji) (CC-BY 4.0). Clue font: Be Vietnam Pro (SIL OFL).
 
+### Neon Blocks
+<img src="docs/icon-neon-blocks.png" alt="Neon Blocks icon" width="96" align="right">
+
+A block puzzle for everyone. Fit the three pieces from your tray onto an 8x8 board; full rows and columns clear. Clear on placement after placement to build a combo, and see exactly which lines a piece will clear before you drop it. Pieces don't turn, unless you spend a **rotate token** (you earn more with big clears). **Daily challenge** gives everyone the same pieces on the same day, so the whole family can compare scores. The title screen plays a demo game by itself.
+
+<p align="center">
+  <img src="docs/neon-blocks-title.png" alt="Neon Blocks title screen" width="31%">
+  <img src="docs/neon-blocks-play.png" alt="Neon Blocks: a row clearing with a combo" width="31%">
+  <img src="docs/neon-blocks-over.png" alt="Neon Blocks game over with a new best score" width="31%">
+</p>
+
+| Button | Action |
+|---|---|
+| D-pad | Move the piece |
+| A | Place |
+| B | Rotate (uses a token) |
+| L / R (or X / Y) | Choose a piece |
+| START | Pause (B in the pause menu returns to the title) |
+| SELECT | Music on / off |
+
+Your best Classic score and today's Daily best are saved. Daily uses the device clock, so set the date on your Brick Pro.
+
 ## Install Retroy (one-time setup)
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
