@@ -69,6 +69,23 @@
       ],
       "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/prism-1.0.0.png",
       "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/prism-1.0.0.png"
+    },
+    {
+      "id": "word-smash",
+      "name": "Word Smash",
+      "type": "game",
+      "version": "1.0.0",
+      "author": "troyvnit",
+      "description": "English vocabulary for kids, for IOE practice: smash the extra letter, fill the missing letter, unscramble, pick the picture and spell it. 232 picture words in four grade packs, plus your own word list.",
+      "dest": "Ports/WordSmash",
+      "size": 665381,
+      "sha256": "55d176e03c1af1b1fc5d38ea846b8099ddedb7f62c819b4feceb2fdadc0b3da3",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/word-smash-1.0.0/word-smash-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/word-smash-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/word-smash-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/word-smash-1.0.0.png"
     }
   ]
 }

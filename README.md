@@ -83,6 +83,29 @@ Bend the light, light them all. Rotate mirrors and splitters so the coloured bea
 
 Your unlocked level and the stars for every level are saved. Pick any unlocked level on the title screen with L / R.
 
+### Word Smash
+<img src="docs/icon-word-smash.png" alt="Word Smash icon" width="96" align="right">
+
+English vocabulary for kids, made for IOE (Internet Olympiad of English) practice. Every word comes with a picture. Smash the letter that does not belong, fill in the missing letter, unscramble the letters, pick the right picture, or spell the whole word on the keyboard. **IOE mix** mixes every kind of question in one round. Words your kid misses come back later in the round and more often next time, and each pack shows how many words are learned.
+
+<p align="center">
+  <img src="docs/word-smash-title.png" alt="Word Smash title screen with pack and mode" width="31%">
+  <img src="docs/word-smash-smash.png" alt="Smash the extra letter: b-i-k-i-e with a picture of a bike" width="31%">
+  <img src="docs/word-smash-spell.png" alt="Spell it: an on-screen keyboard under a picture" width="31%">
+</p>
+
+- **Word packs:** Grade 1-2, Grade 3, Grade 4 and Grade 5 (232 picture words: animals, food, school, family, jobs, clothes, weather, places, transport, sports, actions, feelings...).
+- **Your own words:** copy `Ports/WordSmash/words-example.txt` to `words.txt` and add one word per line, with an optional clue after `=` (Vietnamese works, e.g. `friend = bạn bè`). A **My words** pack appears on the title screen. Game updates never overwrite `words.txt`.
+
+| Button | Action |
+|---|---|
+| D-pad | Choose a letter, picture or key |
+| A | Smash / place / type |
+| START | Pause (B in the pause menu returns to the title) |
+| SELECT | Music on / off |
+
+Pictures: [Twemoji](https://github.com/jdecked/twemoji) (CC-BY 4.0). Clue font: Be Vietnam Pro (SIL OFL).
+
 ## Install Retroy (one-time setup)
 
 You need a computer that can read your SD card, and a Brick Pro that can join Wi-Fi.
