@@ -103,6 +103,57 @@
       ],
       "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/neon-blocks-1.0.0.png",
       "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/neon-blocks-1.0.0.png"
+    },
+    {
+      "id": "cave-story",
+      "name": "Cave Story",
+      "type": "port",
+      "version": "1.0.0",
+      "author": "Studio Pixel",
+      "description": "The classic freeware action-adventure: explore caves, rescue the Mimigas, many endings.",
+      "dest": "Ports/CaveStory",
+      "size": 2156269,
+      "sha256": "bb67e8dbb435656a40736a7d7619121866f641d4a89803379d9499c426f803cb",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/cave-story-1.0.0/cave-story-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/cave-story-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/cave-story-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/cave-story-1.0.0.png"
+    },
+    {
+      "id": "mr-boom",
+      "name": "Mr. Boom",
+      "type": "port",
+      "version": "1.0.0",
+      "author": "Remdy Software",
+      "description": "Bomberman-style party game for up to 8 players with bots, power-ups and monsters.",
+      "dest": "Ports/MrBoom",
+      "size": 5554893,
+      "sha256": "ac0f1fbcaf51e84bc9272ad4f07fb58a0209679502ec9c7539c1fa3fe310abda",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/mr-boom-1.0.0/mr-boom-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/mr-boom-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/mr-boom-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/mr-boom-1.0.0.png"
+    },
+    {
+      "id": "dinothawr",
+      "name": "Dinothawr",
+      "type": "port",
+      "version": "1.0.0",
+      "author": "Agnes Heyer & Hans-Kristian Arntzen",
+      "description": "Slippery block-pushing puzzle: free your dino friends from the ice in 50 levels.",
+      "dest": "Ports/Dinothawr",
+      "size": 7830538,
+      "sha256": "e94513edd5e29d4e1e63efb258ed42e704d039a71b80fff17014e939d95e7a59",
+      "url": "https://github.com/troyvnit/retroy-releases/releases/download/dinothawr-1.0.0/dinothawr-1.0.0.zip",
+      "mirrors": [
+        "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/packages/dinothawr-1.0.0.zip"
+      ],
+      "icon": "https://raw.githubusercontent.com/troyvnit/retroy-releases/main/icons/dinothawr-1.0.0.png",
+      "icon_mirror": "https://cdn.jsdelivr.net/gh/troyvnit/retroy-releases@main/icons/dinothawr-1.0.0.png"
     }
   ]
 }

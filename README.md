@@ -13,7 +13,7 @@
 - **One-button installs.** Pick a game, press **A**. Retroy downloads it, checks it is intact, and installs it.
 - **Play straight from the store.** When an install finishes, press **A** again to launch the game right away, or open it later with the green **PLAY** button.
 - **Updates and removal.** Items show **NEW**, **INSTALLED** or **UPDATE**. Remove anything with **X**.
-- **Games and Ports.** Original games built for the Brick Pro today; more games and community Ports are planned.
+- **Games and Ports.** Original games built for the Brick Pro, plus Ports: classic free games by other authors, repackaged to install with one button.
 - **Safe by design.** Every download is verified with a SHA-256 checksum and rejected if it does not match. Packages can only install into `Apps/` or `Ports/`, and the installer refuses any file that tries to write anywhere else.
 - **Works offline for browsing.** The last catalog is cached, so you can still look around without Wi-Fi.
 
@@ -127,6 +127,16 @@ A block puzzle for everyone. Fit the three pieces from your tray onto an 8x8 boa
 | SELECT | Music on / off |
 
 Your best Classic score and today's Daily best are saved. Daily uses the device clock, so set the date on your Brick Pro.
+
+## Ports
+
+Free games by other authors, packaged by Retroy so they install from the **Ports** tab and run on the stock firmware. All credit goes to their authors; each package includes the licence in `LICENSES.txt`. Ports were prepared from the [PortMaster](https://portmaster.games) ports and have had limited testing on real hardware.
+
+| Port | What it is | Licence |
+|---|---|---|
+| **Cave Story** | Studio Pixel's classic action-adventure: explore the caves, rescue the Mimigas. | Freeware game, [NXEngine](https://github.com/libretro/nxengine-libretro) core (GPLv3) |
+| **Mr. Boom** | Bomberman-style party game for up to 8 players, with bots and power-ups. | [MIT](https://github.com/libretro/mrboom-libretro) |
+| **Dinothawr** | Slippery block-pushing puzzle: free your dino friends from the ice. | [Non-commercial; art CC BY-NC-SA](https://github.com/libretro/Dinothawr) |
 
 ## Install Retroy (one-time setup)
 
